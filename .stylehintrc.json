@@ -1,6 +1,8 @@
 {
     "extends": ["stylelint-config-standard"],
     "plugins": ["stylelint-scss", "stylelint-csstree-validator"],
+    "extends": ["stylelint-config-recess-order"],
+      
     "rules": {
       "at-rule-no-unknown": null,
       "scss/at-rule-no-unknown": [
